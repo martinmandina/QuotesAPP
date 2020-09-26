@@ -5,7 +5,14 @@
   </h1>
 
 </div>
-
+<app-quote></app-quote>
+<div>
+  <h1>Quotes</h1>
+  <ul>
+    <li *ngFor='let quote of quotes'>
+      {{quote.id}} {{quote.message}} {{quote.name}}
+    </li>
+  </ul>
 <h2>enter quote here </h2>
 <ol>
   <li>
