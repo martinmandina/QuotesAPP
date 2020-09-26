@@ -7,17 +7,15 @@
 </div>
 <app-quote></app-quote>
 <div>
-  <h1>Quotes</h1>
-  <ul>
-    <li *ngFor='let quote of quotes'>
-      {{quote.id}} {{quote.message}} {{quote.name}}
-    </li>
-  </ul>
+  <h1>Form</h1>
+  
 <h2>enter quote here </h2>
-<ol>
-  <li>
-    <h2> A wise one</h2>
-     </li>
-</ol>
+<form>
+  <input type="text" placeholder="enter your name" id="name">
+  <input type="text" placeholder="enter your quote" id="message">
+  <input type="submit">
+
+
+</form>>
 
 <router-outlet></router-outlet>
