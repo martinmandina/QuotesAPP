@@ -24,21 +24,3 @@ export class QuoteComponent implements OnInit {
   }
 
 }
-
-/*export class QuoteComponent implements OnInit {
-
-  quotes:Quote[] = [
-    new Quote(1, 'Watch finding Nemo', 'online version'),
-    new Quote(2,'Buy Cookies','parrot'),
-    new Quote(3,'Get new Phone Case','up soon'),
-    new Quote(4,'Get Dog Food','expensive snacks'),
-    new Quote(5,'Solve maths homework','Damn Math'),
-    new Quote(6,'Plot my world domination plan','evil overlord'),
-     ];
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}*/

@@ -1,14 +1,20 @@
-# QuotesAPP
+# Project Name:
+  QuotesApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
+## Author name:
+  Martin Mandina
 
-## Development server
+## Description:
+  An Application where users create quotes while voting on whether they are terrible  or inspirational and most popular being highlighted.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Setup instructions:
+  Create new Angular project
+  Go to project directory
+  Import project repository
+  Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Link to Live:
+martinmandina.github.io/quotesapp/
 
 ## Build
 
