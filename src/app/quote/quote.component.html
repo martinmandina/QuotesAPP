@@ -4,10 +4,11 @@
   <div class="row">
     <div class="col-md-6">
   <ul>
-    <li *ngFor='let quote of quotes'>
-     <!--{{quote.id}} -->{{quote.message}}<br><i>{{quote.name}}</i>
+    <div *ngFor='let quote of quotes;let i = index'>
+      <li>{{quote.description}}</li>
+      <button (click)='toggleDetails(i)'>Show Author</button>
      <app-quote-detail [quote]='quote'></app-quote-detail>
-    </li>
+      </div>
   </ul>
 </div>
 <!--</div>-->
